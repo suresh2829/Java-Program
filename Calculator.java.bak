@@ -1,0 +1,37 @@
+class Calculator 
+{
+	
+	public static void addition()
+	{
+		System.out.println("THIS IS ADDITION METHOD");
+	}
+	public static int addition(int a, int b)
+	{
+		System.out.println("THIS IS ADDITION METHOD with two int parameter");
+		return a+b;
+	}
+	
+	public static float addition(float a , float b)
+	{
+		System.out.println("THIS IS ADDITION METHOD with two float parameter");
+		return a+b;
+	}
+	
+	public static double addition(int a , float b , double c)
+	{
+		double res = a+b+c;
+		return res;
+	}
+	public static void main(String[] args) 
+	{
+		addition();
+		int ans = addition(20,30);
+		System.out.println(ans);
+		float ans1 = addition(26.3f,21.4f);
+		System.out.println(ans1);
+		System.out.println(addition(10,20.3f,10.0));
+		
+		
+		
+	}
+}
